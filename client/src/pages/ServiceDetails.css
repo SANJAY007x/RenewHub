@@ -1,0 +1,533 @@
+/* =========================================
+   RENEWHUB SERVICE DETAILS
+   ========================================= */
+
+.rh-service-details-page {
+  min-height: 100vh;
+  background: #f5f6f8;
+  color: #273c51;
+  padding: 35px 20px 60px;
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+   ========================================= */
+
+.rh-service-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* =========================================
+   BREADCRUMB
+   ========================================= */
+
+.rh-service-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 6px;
+
+  margin-bottom: 20px;
+
+  color: #7a8da1;
+
+  font-size: 11px;
+}
+
+.rh-service-breadcrumb a {
+  color: #0c0566;
+  font-weight: 600;
+}
+
+.rh-service-breadcrumb a:hover {
+  color: #e31e2e;
+}
+
+.rh-service-breadcrumb strong {
+  color: #273c51;
+  font-weight: 600;
+}
+
+
+/* =========================================
+   SERVICE HEADER
+   ========================================= */
+
+.rh-service-details-header {
+  padding: 35px 40px;
+
+  background:
+    linear-gradient(
+      100deg,
+      #092039,
+      #0c0566
+    );
+
+  border-top: 4px solid #e31e2e;
+
+  box-shadow:
+    0 8px 25px rgba(9, 32, 57, 0.08);
+}
+
+.rh-service-details-header > span {
+  display: inline-block;
+
+  color: #a1b8f8;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1.2px;
+}
+
+.rh-service-details-header h1 {
+  margin-top: 8px;
+
+  color: #ffffff;
+
+  font-size: 34px;
+  line-height: 1.2;
+
+  font-weight: 700;
+}
+
+.rh-service-details-header > p {
+  max-width: 750px;
+
+  margin-top: 12px;
+
+  color: #d6def5;
+
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.rh-service-details-meta {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  margin-top: 15px;
+
+  color: #ffffff;
+
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.rh-service-details-meta span:nth-child(2) {
+  color: #a1b8f8;
+}
+
+
+/* =========================================
+   CONTENT GRID
+   ========================================= */
+
+.rh-service-details-grid {
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) 330px;
+
+  gap: 25px;
+
+  margin-top: 25px;
+
+  align-items: start;
+}
+
+
+/* =========================================
+   INFORMATION CARDS
+   ========================================= */
+
+.rh-service-information-card {
+  margin-bottom: 20px;
+
+  padding: 25px 28px;
+
+  background: #ffffff;
+
+  border: 1px solid #dfe4eb;
+
+  box-shadow:
+    0 3px 12px rgba(9, 32, 57, 0.03);
+}
+
+.rh-service-information-card h2 {
+  padding-bottom: 12px;
+
+  color: #092039;
+
+  font-size: 18px;
+
+  border-bottom: 2px solid #e31e2e;
+}
+
+
+/* =========================================
+   APPLICATION STEPS
+   ========================================= */
+
+.rh-service-steps {
+  margin-top: 18px;
+}
+
+.rh-service-step {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 15px;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #e8edf3;
+}
+
+.rh-service-step:last-child {
+  border-bottom: none;
+}
+
+.rh-service-step > span {
+  flex-shrink: 0;
+
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #e31e2e;
+
+  color: #ffffff;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.rh-service-step p {
+  padding-top: 3px;
+
+  color: #273c51;
+
+  font-size: 12px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   REQUIRED DOCUMENTS
+   ========================================= */
+
+.rh-service-documents {
+  margin-top: 18px;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.rh-service-documents li {
+  position: relative;
+
+  padding: 11px 10px 11px 25px;
+
+  color: #273c51;
+
+  font-size: 12px;
+
+  border-bottom: 1px solid #edf0f4;
+}
+
+.rh-service-documents li:last-child {
+  border-bottom: none;
+}
+
+.rh-service-documents li::before {
+  content: "✓";
+
+  position: absolute;
+
+  left: 0;
+  top: 10px;
+
+  color: #e31e2e;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+
+/* =========================================
+   SIDEBAR
+   ========================================= */
+
+.rh-service-details-sidebar {
+  position: sticky;
+
+  top: 20px;
+}
+
+
+/* =========================================
+   OFFICIAL SOURCE CARD
+   ========================================= */
+
+.rh-service-official-card {
+  padding: 25px;
+
+  background: #ffffff;
+
+  border: 1px solid #dfe4eb;
+
+  border-top: 4px solid #e31e2e;
+
+  box-shadow:
+    0 3px 12px rgba(9, 32, 57, 0.04);
+}
+
+.rh-service-official-card > span {
+  color: #e31e2e;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.rh-service-official-card h3 {
+  margin-top: 10px;
+
+  color: #092039;
+
+  font-size: 16px;
+
+  line-height: 1.4;
+}
+
+.rh-service-official-card p {
+  margin-top: 10px;
+
+  color: #587592;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+}
+
+.rh-service-official-card a {
+  display: block;
+
+  margin-top: 18px;
+
+  padding: 11px 14px;
+
+  background: #e31e2e;
+
+  color: #ffffff;
+
+  text-align: center;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  transition: background 0.2s ease;
+}
+
+.rh-service-official-card a:hover {
+  background: #c30112;
+}
+
+
+/* =========================================
+   VERIFICATION CARD
+   ========================================= */
+
+.rh-service-verification-card {
+  margin-top: 15px;
+
+  padding: 20px;
+
+  background: #eef2fb;
+
+  border: 1px solid #d6def5;
+
+  border-left: 4px solid #0c0566;
+}
+
+.rh-service-verification-card strong {
+  display: block;
+
+  color: #092039;
+
+  font-size: 12px;
+}
+
+.rh-service-verification-card p {
+  margin-top: 10px;
+
+  color: #273c51;
+
+  font-size: 10px;
+
+  line-height: 1.6;
+}
+
+.rh-service-verification-card small {
+  display: block;
+
+  margin-top: 12px;
+
+  color: #587592;
+
+  font-size: 9px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   BACK BUTTON
+   ========================================= */
+
+.rh-service-back-button {
+  display: inline-block;
+
+  margin-top: 5px;
+
+  padding: 10px 16px;
+
+  background: #ffffff;
+
+  border: 1px solid #cfd7e2;
+
+  color: #0c0566;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  transition: all 0.2s ease;
+}
+
+.rh-service-back-button:hover {
+  background: #0c0566;
+
+  border-color: #0c0566;
+
+  color: #ffffff;
+}
+
+
+/* =========================================
+   SERVICE NOT FOUND
+   ========================================= */
+
+.rh-service-details-container > h1 {
+  color: #092039;
+
+  font-size: 28px;
+}
+
+.rh-service-details-container > p {
+  margin-top: 10px;
+
+  color: #587592;
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .rh-service-details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rh-service-details-sidebar {
+    position: static;
+  }
+
+  .rh-service-official-card {
+    max-width: none;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 600px) {
+
+  .rh-service-details-page {
+    padding: 20px 15px 40px;
+  }
+
+  .rh-service-details-header {
+    padding: 25px 20px;
+  }
+
+  .rh-service-details-header h1 {
+    font-size: 27px;
+  }
+
+  .rh-service-details-header > p {
+    font-size: 12px;
+  }
+
+  .rh-service-details-meta {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 4px;
+  }
+
+  .rh-service-details-meta span:nth-child(2) {
+    display: none;
+  }
+
+  .rh-service-information-card {
+    padding: 20px 18px;
+  }
+
+  .rh-service-information-card h2 {
+    font-size: 16px;
+  }
+
+  .rh-service-step {
+    gap: 12px;
+  }
+
+  .rh-service-step > span {
+    width: 28px;
+    height: 28px;
+  }
+
+  .rh-service-step p {
+    font-size: 11px;
+  }
+
+  .rh-service-official-card {
+    padding: 20px;
+  }
+
+}

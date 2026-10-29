@@ -1,0 +1,237 @@
+/* =========================================
+   RENEWHUB SERVICE SEARCH
+   ========================================= */
+
+.rh-service-search-wrapper {
+  position: relative;
+  max-width: 850px;
+  margin-top: 30px;
+  z-index: 20;
+}
+
+
+/* =========================================
+   SEARCH BAR
+   ========================================= */
+
+.rh-service-search-wrapper .hero-search {
+  max-width: none;
+  margin-top: 0;
+}
+
+
+/* =========================================
+   RESULTS CONTAINER
+   ========================================= */
+
+.rh-service-search-results {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+
+  background: #ffffff;
+
+  border: 1px solid #dfe4eb;
+
+  box-shadow: 0 12px 30px rgba(9, 32, 57, 0.18);
+}
+
+
+/* =========================================
+   RESULT HEADING
+   ========================================= */
+
+.rh-service-search-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 4px 5px 12px;
+
+  border-bottom: 1px solid #e1e5eb;
+}
+
+.rh-service-search-heading span {
+  color: #e31e2e;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.rh-service-search-heading strong {
+  color: #587592;
+
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+/* =========================================
+   RESULT CARD
+   ========================================= */
+
+.rh-service-result-card {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 15px 5px;
+
+  border-bottom: 1px solid #e8edf3;
+}
+
+.rh-service-result-card:last-child {
+  border-bottom: none;
+}
+
+
+.rh-service-result-content {
+  min-width: 0;
+}
+
+
+.rh-service-result-category {
+  color: #e31e2e;
+
+  font-size: 8px;
+  font-weight: 700;
+
+  letter-spacing: 0.8px;
+}
+
+
+.rh-service-result-content h3 {
+  margin-top: 4px;
+
+  color: #092039;
+
+  font-size: 15px;
+}
+
+
+.rh-service-result-content p {
+  max-width: 650px;
+
+  margin-top: 5px;
+
+  color: #587592;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+
+.rh-service-result-meta {
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  margin-top: 7px;
+
+  color: #7a8da1;
+
+  font-size: 9px;
+}
+
+
+/* =========================================
+   RESULT BUTTON
+   ========================================= */
+
+.rh-service-result-button {
+  flex-shrink: 0;
+
+  padding: 9px 13px;
+
+  background: #e31e2e;
+
+  color: #ffffff;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition: background 0.2s ease;
+}
+
+.rh-service-result-button:hover {
+  background: #c30112;
+}
+
+
+/* =========================================
+   NO RESULTS
+   ========================================= */
+
+.rh-service-no-results {
+  padding: 20px 8px;
+
+  text-align: center;
+}
+
+
+.rh-service-no-results strong {
+  color: #092039;
+
+  font-size: 13px;
+}
+
+
+.rh-service-no-results p {
+  margin-top: 7px;
+
+  color: #587592;
+
+  font-size: 10px;
+}
+
+
+.rh-service-no-results span {
+  color: #e31e2e;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 750px) {
+
+  .rh-service-search-wrapper {
+    margin-top: 25px;
+  }
+
+  .rh-service-result-card {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 12px;
+  }
+
+  .rh-service-result-button {
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .rh-service-search-heading {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 4px;
+  }
+}

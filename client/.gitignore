@@ -1,0 +1,22 @@
+# Dependencies in all project folders
+
+**/node_modules/
+
+# Build output
+
+**/dist/
+**/dist-ssr/
+
+# Environment variables and secrets
+
+**/.env
+**/.env.*
+!**/.env.example
+
+# Uploaded documents
+
+server/uploads/
+
+# Logs
+
+*.log

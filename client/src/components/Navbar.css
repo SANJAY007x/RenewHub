@@ -1,0 +1,557 @@
+/* =========================================
+   TOP BAR
+========================================= */
+
+.top-bar {
+  height: 32px;
+
+  background: #092039;
+
+  color: #ffffff;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 0 5%;
+
+  font-size: 11px;
+}
+
+
+/* LEFT */
+
+.top-bar-left {
+  font-weight: 500;
+}
+
+
+/* RIGHT */
+
+.top-bar-right {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  opacity: 0.9;
+}
+
+
+/* =========================================
+   MAIN NAVBAR
+========================================= */
+
+.main-navbar {
+  background: #ffffff;
+
+  border-bottom: 1px solid #dfe5ee;
+}
+
+
+/* =========================================
+   NAVBAR CONTAINER
+========================================= */
+
+.navbar-container {
+  max-width: 1500px;
+
+  min-height: 88px;
+
+  margin: 0 auto;
+
+  padding: 12px 30px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 30px;
+}
+
+
+/* =========================================
+   RENEWHUB LOGO
+========================================= */
+
+.brand {
+  display: flex;
+
+  align-items: center;
+
+  flex-shrink: 0;
+
+  text-decoration: none;
+}
+
+
+.renewhub-logo {
+  width: 245px;
+
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+
+/* =========================================
+   SEARCH BAR
+========================================= */
+
+.navbar-search {
+  flex: 1;
+
+  max-width: 650px;
+
+  height: 42px;
+
+  display: flex;
+
+  border: 1px solid #bfc9d8;
+
+  background: #ffffff;
+
+  overflow: hidden;
+}
+
+
+/* SEARCH INPUT */
+
+.navbar-search input {
+  flex: 1;
+
+  min-width: 100px;
+
+  padding: 0 15px;
+
+  border: none;
+
+  outline: none;
+
+  color: #273c51;
+
+  font-size: 13px;
+}
+
+
+.navbar-search input::placeholder {
+  color: #8a9aaa;
+}
+
+
+/* SEARCH CATEGORY */
+
+.navbar-search select {
+  width: 140px;
+
+  border: none;
+
+  border-left: 1px solid #d8dfe9;
+
+  padding: 0 8px;
+
+  outline: none;
+
+  color: #587592;
+
+  background: #ffffff;
+
+  font-size: 11px;
+
+  cursor: pointer;
+}
+
+
+/* SEARCH BUTTON */
+
+.navbar-search button {
+  width: 80px;
+
+  border: none;
+
+  background: #e31e2e;
+
+  color: #ffffff;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  transition: background 0.2s ease;
+}
+
+
+.navbar-search button:hover {
+  background: #c30112;
+}
+
+
+/* =========================================
+   ACCOUNT SECTION
+========================================= */
+
+.navbar-account {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  white-space: nowrap;
+}
+
+
+.navbar-account a {
+  color: #273c51;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+}
+
+
+.navbar-account a:hover {
+  color: #e31e2e;
+}
+
+
+/* =========================================
+   REGISTER BUTTON
+========================================= */
+
+.register-link {
+  padding: 9px 15px;
+
+  background: #e31e2e;
+
+  color: #ffffff !important;
+
+  border: 1px solid #e31e2e;
+
+  transition: all 0.2s ease;
+}
+
+
+.register-link:hover {
+  background: #c30112;
+
+  border-color: #c30112;
+}
+
+
+/* =========================================
+   MOBILE MENU BUTTON
+========================================= */
+
+.menu-button {
+  display: none;
+
+  width: 38px;
+
+  height: 38px;
+
+  border: 1px solid #dfe5ee;
+
+  background: #ffffff;
+
+  color: #0c0566;
+
+  font-size: 19px;
+
+  cursor: pointer;
+}
+
+
+.menu-button:hover {
+  background: #f5f6f8;
+}
+
+
+/* =========================================
+   NAVIGATION BAR
+========================================= */
+
+.navigation {
+  background: #0c0566;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+/* NAVIGATION CONTAINER */
+
+.navigation-container {
+  max-width: 1500px;
+
+  margin: 0 auto;
+
+  padding: 0 30px;
+
+  display: flex;
+
+  align-items: center;
+}
+
+
+/* NAVIGATION LINKS */
+
+.navigation-container a {
+  padding: 13px 24px;
+
+  color: #ffffff;
+
+  font-size: 12px;
+
+  font-weight: 500;
+
+  text-decoration: none;
+
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+
+  transition: all 0.2s ease;
+}
+
+
+/* HOVER */
+
+.navigation-container a:hover {
+  background: #e31e2e;
+
+  color: #ffffff;
+}
+
+
+/* ACTIVE */
+
+.navigation-container .active-nav {
+  background: #e31e2e;
+
+  color: #ffffff;
+}
+
+
+/* =========================================
+   LARGE TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .navbar-container {
+    gap: 18px;
+  }
+
+
+  .renewhub-logo {
+    width: 215px;
+  }
+
+
+  .navbar-search {
+    max-width: 520px;
+  }
+
+
+  .navigation-container a {
+    padding: 12px 16px;
+  }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 900px) {
+
+  .top-bar-right {
+    display: none;
+  }
+
+
+  .top-bar {
+    justify-content: center;
+  }
+
+
+  .navbar-container {
+    min-height: auto;
+
+    padding: 12px 20px;
+
+    flex-wrap: wrap;
+  }
+
+
+  .brand {
+    flex: 1;
+  }
+
+
+  .renewhub-logo {
+    width: 210px;
+  }
+
+
+  .navbar-account {
+    gap: 8px;
+  }
+
+
+  .navbar-search {
+    order: 3;
+
+    flex-basis: 100%;
+
+    max-width: none;
+
+    width: 100%;
+  }
+
+
+  .navigation-container {
+    overflow-x: auto;
+
+    padding: 0 15px;
+
+    scrollbar-width: none;
+  }
+
+
+  .navigation-container::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .navigation-container a {
+    white-space: nowrap;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .top-bar {
+    height: 28px;
+
+    font-size: 9px;
+  }
+
+
+  .navbar-container {
+    padding: 10px 15px;
+
+    gap: 12px;
+  }
+
+
+  .renewhub-logo {
+    width: 180px;
+  }
+
+
+  .navbar-account a:first-child {
+    display: none;
+  }
+
+
+  .register-link {
+    padding: 8px 10px;
+
+    font-size: 10px;
+  }
+
+
+  .menu-button {
+    display: block;
+  }
+
+
+  .navbar-search {
+    height: 40px;
+  }
+
+
+  .navbar-search select {
+    display: none;
+  }
+
+
+  .navbar-search button {
+    width: 65px;
+  }
+
+
+  .navbar-search input {
+    font-size: 11px;
+
+    padding: 0 10px;
+  }
+
+
+  .navigation-container {
+    padding: 0 5px;
+  }
+
+
+  .navigation-container a {
+    padding: 11px 13px;
+
+    font-size: 10px;
+  }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+  .renewhub-logo {
+    width: 155px;
+  }
+
+
+  .register-link {
+    display: none;
+  }
+
+
+  .navbar-container {
+    padding: 8px 12px;
+  }
+
+
+  .navbar-search {
+    height: 38px;
+  }
+
+}
+
+
+.settings-link {
+  color: var(--main-navy);
+  font-size: 13px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.settings-link:hover {
+  color: var(--primary);
+}
